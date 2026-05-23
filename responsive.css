@@ -1,0 +1,120 @@
+/* ==========================================================
+   4K MONITORS & BEYOND RESPONSIVENESS
+   ========================================================== */
+
+@media (min-width: 1400px) {
+
+    html {
+        font-size: 20px;
+    }
+
+    .gameHeader,
+    #gameGrid {
+        max-width: 700px;
+    }
+
+    .gameCard {
+        font-size: 4rem;
+    }
+
+    #popUp {
+        max-width: 800px;
+    }
+
+    .restartPopUp {
+        max-width: 800px;
+    }
+}
+
+/* ==========================================================
+   TABLET LAYOUT RESPONSIVENESS
+   ========================================================== */
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 17px;
+    }
+
+    .gameHeader {
+        flex-direction: column;
+        max-width: 500px;
+        gap: 15px;
+    }
+
+    #gameGrid {
+        width: 80vw;
+    }
+
+    .gameCard {
+        font-size: 2.8rem;
+    }
+
+    #popUp {
+        max-width: 600px;
+    }
+
+    .restartPopUp {
+        max-width: 600px;
+    }
+}
+
+/* ==========================================================
+   MOBILE LAYOUT OPTIMIZATION (Standard iPhones/Android)
+   ========================================================== */
+
+@media (max-width: 480px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .gameHeader {
+        max-width: 90vw;
+        flex-direction: column;
+    }
+
+    #gameGrid {
+        width: 90vw;
+    }
+
+    #gameGrid {
+        grid-gap: 10px;
+        padding: 12px;
+    }
+
+    .gameCard {
+        font-size: 2.2rem;
+        border-radius: 10px;
+    }
+
+    #popUp {
+        max-width: 350px;
+
+    }
+
+    .restartPopUp {
+        max-width: 350px;
+    }
+}
+
+/* ==========================================================
+   TINY MOBILE LAYOUT OPTIMIZATION (iPhone SE / Screen Width 375px or less)
+   ========================================================== */
+
+@media (max-width: 375px) {
+
+    .gameHeader h1 {
+        font-size: 1.2rem;
+    }
+
+    .statBadge,
+    .commonBtn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .gameCard {
+        font-size: 1.8rem;
+    }
+}
