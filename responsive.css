@@ -84,17 +84,20 @@
     }
 
     .gameCard {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
         border-radius: 10px;
     }
 
     #popUp {
         max-width: 350px;
-
     }
 
     .restartPopUp {
         max-width: 350px;
+    }
+
+    .crossIcon {
+        font-size: 1.5rem;
     }
 }
 
