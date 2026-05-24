@@ -64,6 +64,12 @@ html {
     /* restartPopUp */
     --restartPopUp-primary-bg: rgba(255, 255, 255, 0.95);
     --restartPopUp-border-color: rgba(255, 255, 255, 0.6);
+
+    /* matchTextStyle */
+    --matchTextStyle-primary-bg: #10b981;
+    --matchTextStyle-primary-color: #ffffff;
+    --matchTextStyle-border-color: rgba(16, 185, 129, 0.4);
+
 }
 
 /* ------------------------------ common elements styling -------------------------------- */
@@ -275,8 +281,8 @@ html {
     min-width: 280px;
     height: auto;
     padding: 20px 40px;
-    background-color: #10b981;
-    color: #ffffff;
+    background-color: var(--matchTextStyle-primary-bg);
+    color: var(--matchTextStyle-primary-color);
     border-radius: 20px;
     font-size: 2.5rem;
     font-weight: 800;
@@ -293,7 +299,7 @@ html {
     justify-content: center;
     align-items: center;
 
-    box-shadow: 0 20px 40px -10px rgba(16, 185, 129, 0.4);
+    box-shadow: 0 20px 40px -10px var(--matchTextStyle-border-color);
 
     /* Triggers our beautiful pop-and-fade animation */
     animation: matchAnimate 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
