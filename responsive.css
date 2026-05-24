@@ -84,7 +84,7 @@
     }
 
     .gameCard {
-        font-size: 2.8rem;
+        font-size: 3.3rem;
         border-radius: 10px;
     }
 
@@ -97,7 +97,7 @@
     }
 
     .crossIcon {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -117,7 +117,4 @@
         font-size: 0.8rem;
     }
 
-    .gameCard {
-        font-size: 1.8rem;
-    }
 }
